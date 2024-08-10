@@ -1,0 +1,69 @@
+body {
+  
+}
+
+.hidden {
+  display: none;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  
+}
+.logo {
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+.icon-1 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.icon-2 {
+  
+}
+
+.open-menu {
+  position: absolute;
+  width: 100%;
+  background-color: blue;
+  height: 100vh;
+  
+}
+
+.fa-x {
+  position: absolute;
+  left: 85px;
+}
+
+.open-menu nav {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 120px;
+}
+
+.open-menu nav ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.open-menu nav ul li {
+  list-style: none;
+  font-size: 20px;
+  margin: 20px 0;
+  margin-right: 30px;
+  border-bottom: solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.open-menu nav ul li a {
+  text-decoration: none;
+  color: black;
+}
